@@ -1,6 +1,14 @@
-import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('./data/raw/marketing_campaign.csv')
+mh = pd.read_csv('./data/raw/messy_housing_data.csv')
 
-df.isnull().sum()
+from src.report import data_quality_report
+
+report = data_quality_report(mh)
+print(report)
+
+mh.hist(figsize=(8,6))
+plt.tight_layout()
+plt.show()
+
