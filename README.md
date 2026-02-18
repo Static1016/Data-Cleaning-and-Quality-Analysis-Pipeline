@@ -181,7 +181,7 @@ data/cleaned/
 
 ## 👤 Author
 
-**Your Name**
+**Yash Mhaparle**
 [LinkedIn](https://www.linkedin.com/in/yash-mhaparle-b52034217/)
 [GitHub](https://github.com/Static1016)
 
