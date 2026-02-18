@@ -1,14 +1,11 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-mh = pd.read_csv('./data/raw/messy_housing_data.csv')
+from src.cleaner import clean_data
 
-from src.report import data_quality_report
+input_path = "data/raw/messy_housing_data.csv"
+output_path = "data/cleaned/housing_cleaned.csv"
 
-report = data_quality_report(mh)
-print(report)
+clean_data(input_path, output_path)
 
-mh.plot(kind="scatter", x="area_sqft", y="price")
-#plt.tight_layout()
-plt.show()
 
