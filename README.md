@@ -90,7 +90,7 @@ The project includes multiple visual analyses:
 
 ### Example
 
-![Price Distribution](outputs/Data_after_cleaning/Price_Distribution.png)
+![Price Distribution](./outputs/Data_after_cleaning/9.%20Price_Distribution.png)
 
 ---
 
