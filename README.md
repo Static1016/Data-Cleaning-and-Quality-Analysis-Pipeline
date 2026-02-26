@@ -1,6 +1,6 @@
-# 🧹 Data Cleaning and Quality Analysis Pipeline (Housing Dataset)
+# Data Cleaning and Quality Analysis Pipeline (Housing Dataset)
 
-## 📌 Project Overview
+## Project Overview
 
 Real-world datasets are often messy, inconsistent, and unreliable for analysis.
 This project demonstrates an **end-to-end data cleaning and quality analysis pipeline** built using Python to transform raw housing data into a clean, structured dataset ready for analysis and modeling.
@@ -9,7 +9,7 @@ The pipeline identifies data quality issues such as missing values, inconsistent
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Detect and analyze data quality issues in raw datasets
 * Perform automated data cleaning using Python
@@ -21,7 +21,7 @@ The pipeline identifies data quality issues such as missing values, inconsistent
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains housing information across multiple cities with the following attributes:
 
@@ -36,7 +36,7 @@ The raw dataset intentionally contains inconsistencies to simulate real-world da
 
 ---
 
-## ⚠️ Problems Identified in Raw Data
+## Problems Identified in Raw Data
 
 Several data quality issues were detected:
 
@@ -50,7 +50,7 @@ Several data quality issues were detected:
 
 ---
 
-## 🛠️ Data Cleaning Steps
+## Data Cleaning Steps
 
 The cleaning pipeline performs:
 
@@ -68,7 +68,7 @@ The cleaning pipeline performs:
 
 ---
 
-## 📊 Before vs After Cleaning
+## Before vs After Cleaning
 
 | Metric         | Raw Data | Cleaned Data |
 | -------------- | -------- | ------------ |
@@ -78,7 +78,7 @@ The cleaning pipeline performs:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The project includes multiple visual analyses:
 
@@ -94,7 +94,7 @@ The project includes multiple visual analyses:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 * Property price strongly correlates with area and number of bedrooms.
 * Certain locations show significantly higher median prices.
@@ -103,7 +103,7 @@ The project includes multiple visual analyses:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Data-Cleaning-and-Quality-Analysis-Pipeline/
@@ -129,7 +129,7 @@ Data-Cleaning-and-Quality-Analysis-Pipeline/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/Static1016/Data-Cleaning-and-Quality-Analysis-Pipeline.git
@@ -140,7 +140,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the cleaning pipeline:
 
@@ -156,7 +156,7 @@ data/cleaned/
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 * Python programming
 * Pandas & NumPy
@@ -169,7 +169,7 @@ data/cleaned/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Automated data validation using schema checks
 * CLI interface for pipeline execution
@@ -179,7 +179,7 @@ data/cleaned/
 
 ---
 
-## 👤 Author
+## Author
 
 **Yash Mhaparle**
 [LinkedIn](https://www.linkedin.com/in/yash-mhaparle-b52034217/)
@@ -187,7 +187,7 @@ data/cleaned/
 
 ---
 
-## ⭐ Acknowledgment
+## Acknowledgment
 
 This project is created for learning and portfolio demonstration purposes to showcase practical data cleaning and analysis skills.
 
